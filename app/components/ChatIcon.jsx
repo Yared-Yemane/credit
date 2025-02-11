@@ -12,7 +12,7 @@ const ChatIcon = () => {
   };
 
   return (
-    <div className="fixed bottom-4 right-4 z-50">
+    <div className="fixed bottom-4 right-4 z-50 border-2 border-white rounded-full">
       {/* Chat Icon */}
       <div
         onClick={toggleChatWindow}
@@ -23,7 +23,7 @@ const ChatIcon = () => {
 
       {/* Chat Window (Hidden initially) */}
       {isOpen && (
-        <div className="fixed bottom-16 right-5 w-80 h-96 bg-white border rounded-lg shadow-lg p-4">
+        <div className="fixed bottom-[70px] right-7 w-80 h-96 bg-white border rounded-lg shadow-lg p-4">
           <div className="flex justify-between items-center">
             <h3 className="font-semibold text-lg">Chat with us</h3>
             <button onClick={toggleChatWindow} className="text-gray-500">
