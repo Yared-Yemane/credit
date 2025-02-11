@@ -1,0 +1,16 @@
+export default [
+  "/partners/partner1.png",
+  "/partners/partner2.png",
+  "/partners/partner3.png",
+  "/partners/partner4.png",
+  "/partners/partner5.png",
+  "/partners/partner6.png",
+  "/partners/partner7.png",
+  "/partners/partner1.png",
+  "/partners/partner2.png",
+  "/partners/partner3.png",
+  "/partners/partner4.png",
+  "/partners/partner5.png",
+  "/partners/partner6.png",
+  "/partners/partner7.png",
+];

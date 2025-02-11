@@ -11,6 +11,12 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        custom: ["CustomFont", "sans-serif"], // Custom self-hosted font
+        poppins: ["Poppins", "sans-serif"], // Google Font "Poppins"
+        roboto: ["Roboto", "sans-serif"], // Google Font "Roboto"
+        nunito: ["NunitoSans", "sans-serif"], // Google Font "Nunito-Sans"
+      },
     },
   },
   plugins: [],
