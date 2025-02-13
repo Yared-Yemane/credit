@@ -7,7 +7,7 @@ const LeftSection = () => {
       <HamburgerMenu />
       <a href="/">
         <label className=" font-semibold text-4xl text-blue-950 tracking-tighter cursor-pointer">
-          FinTrust
+          AfroTrust
         </label>
       </a>
     </div>

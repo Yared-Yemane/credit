@@ -10,6 +10,8 @@ import Services from "./components/Services";
 import Profit from "./components/Profit";
 import Partners from "./components/Partners";
 import ChatIcon from "./components/ChatIcon";
+import Testimonials from "./components/Testimonials";
+import Blog from "./components/Blog";
 // import AnimatedComponent from "./components/HowItWorks";
 
 export default function Home() {
@@ -23,6 +25,8 @@ export default function Home() {
       <Partners />
       <PricingPlan />
       <ChatIcon />
+      <Testimonials />
+      <Blog />
       {/* <AnimatedComponent /> */}
     </div>
   );
