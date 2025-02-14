@@ -51,7 +51,7 @@ const Blog = () => {
             <motion.div
               key={post.id}
               className="bg-white shadow-md rounded-lg overflow-hidden"
-              initial={{ opacity: 0, y: 50 }}
+              initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
               viewport={{ amount: 0.2 }}
