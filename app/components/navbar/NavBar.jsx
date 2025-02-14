@@ -5,6 +5,8 @@ import LeftSection from "./LeftSection";
 import NavMenus from "./NavMenus";
 import RightSection from "./RightSection";
 import useStore from "@/app/store/store";
+import SideBar from "../SideBar";
+import ChatIcon from "../ChatIcon";
 
 const NavBar = () => {
   const { isSidebarOpen } = useStore();
@@ -45,6 +47,8 @@ const NavBar = () => {
       <LeftSection />
       <NavMenus />
       <RightSection />
+      {/* <SideBar /> */}
+      {/* <ChatIcon /> */}
     </div>
   );
 };

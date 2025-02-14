@@ -17,14 +17,14 @@ import Blog from "./components/Blog";
 export default function Home() {
   return (
     <div>
-      <SideBar />
+      {/* <SideBar /> */}
       <Hero />
       <KeyFeatures />
       <Services />
       <Profit />
       <Partners />
       <PricingPlan />
-      <ChatIcon />
+      {/* <ChatIcon /> */}
       <Testimonials />
       <Blog />
       {/* <AnimatedComponent /> */}

@@ -10,6 +10,8 @@ import NavBar from "./components/navbar/NavBar";
 import Footer from "./components/footer/Footer";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import SideBar from "./components/SideBar";
+import ChatIcon from "./components/ChatIcon";
 // import { Poppins } from "next/font/google";
 
 const poppins = Poppins({ subsets: ["latin"], weight: "400" });
@@ -41,6 +43,8 @@ export default function RootLayout({ children }) {
       >
         <NavBar />
         {children}
+        <SideBar />
+        <ChatIcon />
         <Footer />
       </body>
     </html>
