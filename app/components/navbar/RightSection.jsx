@@ -4,8 +4,10 @@ import React, { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { Settings } from "lucide-react";
 import { ChevronDown as ChevronDownIcon } from "lucide-react"; // Import the arrow icon
+import { useRouter } from "next/navigation";
 
 const RightSection = () => {
+  const router = useRouter();
   const [isModalOpen, setIsModalOpen] = useState(false); // Modal visibility state
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [selectedLanguage, setSelectedLanguage] = useState("en"); // Language state
@@ -72,6 +74,7 @@ const RightSection = () => {
         whileHover={{ scale: 1.01 }}
         whileTap={{ scale: 0.95 }}
         className="py-2 px-4 w-auto text-nowrap bg-blue-900 text-white rounded-lg hover:bg-white hover:text-blue-950 hover:border hover:border-blue-900 transition-all duration-200"
+        onClick={() => router.push("/auth")} // Redirect on click
       >
         Log in
       </motion.button>

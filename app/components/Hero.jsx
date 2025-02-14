@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { motion } from "framer-motion";
 import HeroMenu from "../data/HeroMenu";
@@ -5,8 +7,10 @@ import AutoSlidingMenu from "./AutoSlidingMenu";
 import RatingReviews from "./RatingReviews";
 import { Poppins } from "next/font/google";
 import { Roboto } from "next/font/google";
+import { useRouter } from "next/navigation";
 
 const Hero = () => {
+  const router = useRouter();
   const HeroMenuData = HeroMenu;
   return (
     <div className=" grid grid-cols-2 pt-36 px-5 pb-5 font-sans">
@@ -37,7 +41,10 @@ const Hero = () => {
             Create Account
           </button>
           {/* Login Button */}
-          <button className="py-2 px-20 bg-transparent text-blue-900 font-medium border border-blue-900 rounded-lg hover:bg-blue-900 hover:text-white transition-all duration-200">
+          <button
+            onClick={() => router.push("/auth")}
+            className="py-2 px-20 bg-transparent text-blue-900 font-medium border border-blue-900 rounded-lg hover:bg-blue-900 hover:text-white transition-all duration-200"
+          >
             Log in
           </button>
         </div>
