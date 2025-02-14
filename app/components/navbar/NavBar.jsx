@@ -38,7 +38,7 @@ const NavBar = () => {
 
   return (
     <div
-      className={`fixed top-0 left-0 w-full bg-white z-50 flex justify-between items-center gap-10 py-3 pl-5 pr-14 border-2 transition-transform duration-500 ease-in-out ${
+      className={`fixed top-0 left-0 w-full font-sans bg-white z-50 flex justify-between items-center gap-10 py-3 pl-5 pr-14 border-2 transition-transform duration-500 ease-in-out ${
         isVisible ? "translate-y-0" : "-translate-y-full"
       }`}
     >

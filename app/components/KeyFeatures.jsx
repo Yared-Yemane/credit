@@ -61,7 +61,7 @@ const FeatureCard = ({ imgSrc, title, description, color }) => {
 
 const KeyFeatures = () => {
   return (
-    <div className="py-12 px-5">
+    <div className="py-12 px-5 font-sans">
       <h1 className="text-center text-blue-900 font-bold max-w-lg mx-auto mb-5 text-4xl">
         We Are Increasing Success With IT Solution
       </h1>

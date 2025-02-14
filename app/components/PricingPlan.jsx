@@ -97,7 +97,7 @@ const PricingCard = ({ plan }) => {
 
 const PricingPlan = () => {
   return (
-    <div className=" pt-16">
+    <div className=" pt-16 font-sans">
       {" "}
       <div className="bg-yellow-200 text-yellow-800 mb-3 ml-16 px-3 py-1 inline-block rounded-full text-sm font-semibold">
         PACKAGES

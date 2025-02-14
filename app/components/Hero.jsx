@@ -9,7 +9,7 @@ import { Roboto } from "next/font/google";
 const Hero = () => {
   const HeroMenuData = HeroMenu;
   return (
-    <div className=" grid grid-cols-2 pt-36 px-5 pb-5">
+    <div className=" grid grid-cols-2 pt-36 px-5 pb-5 font-sans">
       <div className=" flex flex-col justify-b px-10 pt-5 gap-14 text-blue-900">
         <div className=" flex flex-col gap-3">
           <h1 className=" text-left text-4xl">

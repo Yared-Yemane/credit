@@ -33,7 +33,7 @@
         {/* 🔷 Overlay */}
         <div
           ref={overlayRef}
-          className={`fixed inset-0 bg-black bg-opacity-50 z-10 transition-opacity duration-100 ${
+          className={`fixed inset-0 bg-black bg-opacity-50 z-10 transition-opacity font-sans duration-100 ${
             isSidebarOpen ? "opacity-100 visible" : "opacity-0 invisible"
           }`}
           onClick={closeSidebar}

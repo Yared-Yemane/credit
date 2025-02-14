@@ -2,7 +2,7 @@ import React from "react";
 
 const MoreDetails = () => {
   return (
-    <div className="relative bg-[#F7F4EC] w-full h-auto flex justify-center items-center px-8 md:px-16 text-center overflow-hidden">
+    <div className="relative bg-[#F7F4EC] w-full h-auto font-sans flex justify-center items-center px-8 md:px-16 text-center overflow-hidden">
       {/* Background Grid using CSS */}
       <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-40"></div>
 

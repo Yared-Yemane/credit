@@ -11,7 +11,7 @@ const NavMenus = () => {
   const NavBarMenusData = NavBarMenus;
 
   return (
-    <div className="sticky w-full bg-white border-b border-gray-200">
+    <div className="sticky w-full bg-white border-b border-gray-200 font-sans">
       <div className="flex items-center justify-start gap-2 h-14 text-gray-700 text-sm font-medium px-6 relative">
         {NavBarMenusData.map((menu, index) => {
           const Icon = menu.icon;
