@@ -28,7 +28,7 @@ const ChatIcon = () => {
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
         onClick={toggleChatWindow}
-        className="relative bg-blue-950 text-white p-3 rounded-full shadow-lg cursor-pointer hover:bg-blue-600 transition-all duration-300"
+        className="relative bg-blue-950 text-white p-3 rounded-full border-2 border-white shadow-lg cursor-pointer hover:bg-blue-600 transition-all duration-300"
       >
         <MessageSquareIcon size={30} />
 

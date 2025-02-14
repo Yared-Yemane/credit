@@ -14,8 +14,11 @@ const LeftFooterSection = () => {
               <h2 className="text-2xl font-semibold">AfroTrust</h2>
             </div>
             <p className="text-gray-300 mt-3">
-              Beatae reiciendis aut sit in rerum perferendis. Est occaecati
-              repudiandae non. Nisi vero illum.
+              AfroTrust’s advanced credit scoring system provides accurate
+              financial assessments, empowering lenders and individuals with
+              data-driven insights. By analyzing spending behavior, repayment
+              history, and risk factors, we ensure fair and transparent credit
+              evaluations for better financial opportunities.
             </p>
           </div>
         </div>
@@ -115,7 +118,7 @@ const LeftFooterSection = () => {
             </div>
           </div>
           {/* Contact & Newsletter */}
-          <div className=" mt-10 ml-10 flex justify-between">
+          <div className=" w-full mt-10 ml-10 flex justify-between gap-5">
             <div>
               {" "}
               <h3 className="font-semibold text-lg">Contact Us</h3>
