@@ -219,7 +219,7 @@ const AuthForm = () => {
                       required
                       className="w-full p-3 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900"
                     >
-                      <option value="" className="text-gray-500">
+                      <option value="" className="text-gray-500" disabled>
                         Select Gender
                       </option>
                       <option value="male">Male</option>
